@@ -60,6 +60,16 @@
         <!-- /.container -->
     </nav>
 
+    <style type="text/css">
+        .productThumbnail {
+            height: 200px;
+            width: 100%;
+            background-size: contain; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+        }
+    </style>
+
     <!-- Page Content -->
     <div class="container">
 
@@ -70,32 +80,32 @@
                     <% @products.each do |product| %>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src="<%= product['thumbnail'] %>" alt="">
+                                <div style="background-image:url('images/<%= product['key'] %>.jpg')" class="productThumbnail">
+
+                                </div>
+                                <!-- <img src="images/<%= product['key'] %>.jpg" alt="<%= product['title'] %>" class="productThumbnail"> -->
                                 <div class="caption">
                                     <h4 class="pull-right"><%= product['price'] %></h4>
-                                    <h4><a href="<%= product['link'] %>"><%= product['title'] %></a>
+                                    <h4><a href="<%= product['link'] %>" target="_blank"><%= product['title'] %></a>
                                     </h4>
                                     <p><%= product['description'] %></p>
                                 </div>
                                 <div class="ratings">
-                                    <p class="pull-right">15 reviews</p>
+                                    <p class="pull-right">100% Abschreibefähig</p>
                                     <p>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
+                                        <% product['stars'].to_i.times do %>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                        <% end %>
                                     </p>
                                 </div>
                             </div>
                         </div>
                     <% end %>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4><a href="#">Like this template?</a>
-                        </h4>
-                        <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
-                        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View Tutorial</a>
+                    <div class="col-sm-4 col-lg-4 col-md-4" style="margin-top: 210px;">
+                        <h4>Noch Ideen?</h4>
+                        <p>Ich ergänze die Seite ständig mit neuen Produkten. Ich freue mich über Vorschläge.</p>
+                        <a class="btn btn-primary" href="mailto:gwg@krausefx.com?subject=Produktvorschlag">Vorschlag senden</a>
                     </div>
 
                 </div>
