@@ -1,0 +1,15 @@
+require 'erb'
+require 'json'
+
+task :convert do
+  @products = JSON.parse(File.read("products.json"))
+
+
+  html_path = 'index.html.erb'
+  html = ERB.new(File.read(html_path)).result(binding) # http://www.rrn.dk/rubys-erb-templating-system
+
+  export_path = '../index.html'
+  File.write(export_path, html)
+end
+
+task :default => :convert
