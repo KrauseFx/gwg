@@ -10,6 +10,8 @@ task :convert do
 
   export_path = '../index.html'
   File.write(export_path, html)
+
+  puts "Successfully finished generate HTML File."
 end
 
 task :default => :convert
