@@ -1,0 +1,4 @@
+gwg
+===
+
+Geringwertige Wirtschaftsgüter finden
