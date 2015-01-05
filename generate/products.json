@@ -1,7 +1,31 @@
 [
   {
+    "title": "64GB USB-Stick",
+    "price": 38.99,
+    "description": "USB 3.0 64GB USB Stick in schwarz.",
+    "link": "http://www.amazon.de/gp/product/B00DZPUOUI/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00DZPUOUI&linkCode=as2&tag=geringwertige-21&linkId=SV7PPHK2XKYBMP56",
+    "key": "B00DZPUOUI",
+    "stars": 5
+  },
+  {
+    "title": "Bose Headset",
+    "price": 273.00,
+    "description": "Active Noise Cancelling Headset mit Microsoft",
+    "link": "http://www.amazon.de/gp/product/B00M1NEUKK/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00M1NEUKK&linkCode=as2&tag=geringwertige-21&linkId=JBU77EVVYKSRV5AP",
+    "key": "B00M1NEUKK",
+    "stars": 4
+  },
+  {
+    "title": "Microsoft Office 365 5 PCs",
+    "price": 71.27,
+    "description": "Microsoft Office 365 Jahreslizens für bis zu 5 Computer",
+    "link": "http://www.amazon.de/gp/product/B00A2ILVP8/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00A2ILVP8&linkCode=as2&tag=geringwertige-21&linkId=GKZ5RPCIKUFYDGVL",
+    "key": "B00A2ILVP8",
+    "stars": 4
+  },
+  {
     "title": "Raspberry PI",
-    "price": "33,70 EUR",
+    "price": 33.70,
     "description": "Mini Computer, verwendbar als Backup Server, Document Server, Print Server und vieles mehr.",
     "link": "http://www.amazon.de/gp/product/B00LPM6U06/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00LPM6U06&linkCode=as2&tag=geringwertige-21&linkId=2M6GHBQAFDCHC6TF",
     "key": "B00LPM6U06",
@@ -9,7 +33,7 @@
   },
   {
     "title": "Handy Akku Bank",
-    "price": "34,99 EUR",
+    "price": 34.99,
     "description": "iPhone, iPad, Android und jedes andere USB unterwegs aufladen. Lädt iPhone bis zu 8 mal mit einer Ladung.",
     "link": "http://www.amazon.de/gp/product/B00F5Q4F0U/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00F5Q4F0U&linkCode=as2&tag=geringwertige-21&linkId=Y52IUCJP73XKHAIF",
     "key": "B00F5Q4F0U",
@@ -17,7 +41,7 @@
   },
   {
     "title": "40 AA Batterien",
-    "price": "19,99 EUR",
+    "price": 19.99,
     "description": "Für Computer Maus, Tastatur, Lautsprecher und sonstige elektronische Geräte. Immer gut auf Lager zu haben.",
     "link": "http://www.amazon.de/gp/product/B00ISQAOM2/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00ISQAOM2&linkCode=as2&tag=geringwertige-21&linkId=BSOKQ2DA4S6CEAYN",
     "key": "B00ISQAOM2",
@@ -25,18 +49,18 @@
   },
   {
     "title": "1 TB Backup Festplatte",
-    "price": "61,99 EUR",
+    "price": 61.99,
     "description": "Computer Sicherungen sind wichtig, und sollten immer rechtzeitig angelegt werden.",
     "link": "http://www.amazon.de/gp/product/B00CRZ2PRM/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00CRZ2PRM&linkCode=as2&tag=geringwertige-21&linkId=EYY3BV7M6TDLKOJ7",
     "key": "B00CRZ2PRM",
-    "stars": 4
+    "stars": 5
   },
   {
     "title": "Full HD Bildschirm",
-    "price": "61,99 EUR",
+    "price": 61.99,
     "description": "Ein zweiter Bildschirm am Laptop oder PC kann Ihre Produktivität deutlich steigern. Achten Sie auf einen VGA und HDMI Eingang.",
     "link": "http://www.amazon.de/gp/product/B005PLFAH2/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B005PLFAH2&linkCode=as2&tag=geringwertige-21&linkId=34IK5BIK2DOWVNQO",
     "key": "B005PLFAH2",
-    "stars": 4
+    "stars": 5
   }
 ]
